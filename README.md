@@ -193,4 +193,4 @@ flourishAndBlotts.sellBook(spellBook, 15);
 flourishAndBlotts.addBook(monsterBookToSell, 30);
 flourishAndBlotts.sellBook(monsterBookToSell, 750);
 
-console.log("Authors known: " + listOfAllKnownAuthors);
+console.log("Authors known: " + listOfAllKnownAuthors); 
