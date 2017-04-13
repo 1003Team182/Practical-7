@@ -163,14 +163,14 @@ class Book
         return this._author;
     }
 
-    get publicationYear()
-    {
-        return this._publicationYear;
-    }
-
     get price()
     {
         return this._price;
+    }
+    
+    get publicationYear()
+    {
+        return this._publicationYear;
     }
 
     toString()
