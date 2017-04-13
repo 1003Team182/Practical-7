@@ -105,16 +105,6 @@ class BookStore
         this._name = newName;
     }
 
-    get address()
-    {
-        return this._address;
-    }
-
-    set address(newAddress)
-    {
-        this._address = newAddress;
-    }
-
     get owner()
     {
         return this._owner;
@@ -123,6 +113,16 @@ class BookStore
     set address(newOwner)
     {
         this._owner = newOwner;
+    }
+    
+    get address()
+    {
+        return this._address;
+    }
+
+    set address(newAddress)
+    {
+        this._address = newAddress;
     }
 }
 
