@@ -1,7 +1,7 @@
 # Practical-7
 
 var listOfAllKnownAuthors = []
-
+// Setting the class function
 class BookStore
 {
     constructor(name, address, owner)
@@ -12,7 +12,7 @@ class BookStore
         this._booksAvailable = [];
         this._totalCopiesOfAllBooks = 0
     }
-
+// Checking for author name
     authorKnown(authorName)
     {
         var foundThem = false;
@@ -76,7 +76,7 @@ class BookStore
             console.log(bookInstance + " not found");
         }
     }
-
+// Checking for the position of the book
     checkForBook(bookInstance)
     {
         var currBookNum = 0;
@@ -163,14 +163,14 @@ class Book
         return this._author;
     }
 
-    get price()
-    {
-        return this._price;
-    }
-    
     get publicationYear()
     {
         return this._publicationYear;
+    }
+
+    get price()
+    {
+        return this._price;
     }
 
     toString()
